@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mlm-finetune"
+version = "0.1.0"
+description = ""
+authors = ["antonio <antonio.trenta.ds@gmail.com>"]
+readme = "README.md"
+packages = [{include = "mlm_finetune"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+transformers = "^4.30.2"
+datasets = "^2.13.1"
+torch = "^1.11.0"
+pytorch_lightning = "^2.0.4"
+torchvision = "^0.14.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.4.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
