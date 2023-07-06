@@ -1,4 +1,4 @@
-from src.data import MaskedLMDataModule, BATCH_SIZE
+from mlm_finetune.data import MaskedLMDataModule, BATCH_SIZE
 
 
 def test_data_module():

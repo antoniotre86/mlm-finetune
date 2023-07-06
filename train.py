@@ -1,7 +1,7 @@
-from src.data import MaskedLMDataModule
+from mlm_finetune.data import MaskedLMDataModule
 import pytorch_lightning as pl
 
-from src.model import MLMLightningModule
+from mlm_finetune.model import MLMLightningModule
 
 SEED = 123
 

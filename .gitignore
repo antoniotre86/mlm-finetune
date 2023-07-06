@@ -2,3 +2,5 @@
 /.pytest_cache/
 /.idea
 lightning_logs
+/mlm_finetune/MNIST/
+*/__pycache__
